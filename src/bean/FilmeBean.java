@@ -30,8 +30,7 @@ public class FilmeBean {
     private int id;
     private String nome, diretor, categoria, atorPrincipal, idiomaOriginal, faixaEtaria;
     private double orcamento, faturamento;
-    private short tempoFilme;
-    private int ano;
+    private short tempoFilme, ano;
     private boolean dublado, legenda;
 
     public int getId() {
@@ -114,11 +113,11 @@ public class FilmeBean {
         this.tempoFilme = tempoFilme;
     }
 
-    public int getAno() {
+    public short getAno() {
         return ano;
     }
 
-    public void setAno(int ano) {
+    public void setAno(short ano) {
         this.ano = ano;
     }
 
